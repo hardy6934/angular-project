@@ -1,0 +1,27 @@
+.user-info-block{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    padding: 15px 0px; 
+    height: 200px;
+
+    .user-photo{ 
+        border: 1.5px solid rgb(198, 195, 195);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .user-fullname{
+        text-align: center; 
+        font-weight: bold; 
+        margin: 10px 0px;
+    }
+
+    .user-login{
+        text-align: center;  
+        margin: 25px 0px 0px 0px;
+        color: rgb(128, 128, 128);
+    }
+
+}

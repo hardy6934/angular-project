@@ -1,0 +1,14 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 10px;
+    .element{
+        background-color: red;
+    }
+}
+
+.displayValue{
+    text-align: right;
+    padding: 10px;
+    border: 1px solid black;
+}

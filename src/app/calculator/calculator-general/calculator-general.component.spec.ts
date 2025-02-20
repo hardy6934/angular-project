@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { ComponentFixture, TestBed } from '@angular/core/testing'; 
 import { CalculatorGeneralComponent } from './calculator-general.component';
+
 
 describe('CalculatorGeneralComponent', () => {
   let component: CalculatorGeneralComponent;

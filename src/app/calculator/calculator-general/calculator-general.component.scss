@@ -1,14 +1,18 @@
 .wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-gap: 10px;
-    .element{
-        background-color: red;
-    }
-}
+    margin: 10px;  
 
-.displayValue{
-    text-align: right;
-    padding: 10px;
-    border: 1px solid black;
-}
+    .element{
+        background-color: #39393c;
+        color: white;
+        padding: 8px 10px;  
+        border-radius: 10px;
+    }
+
+    .span-two-columns{
+        grid-column: span 3;
+    }
+
+}  

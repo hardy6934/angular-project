@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-calculator-output',
@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './calculator-output.component.scss'
 })
 export class CalculatorOutputComponent {
+
+  @Input() displayedValue: string = ""
 
 }

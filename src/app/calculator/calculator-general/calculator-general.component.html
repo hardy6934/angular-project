@@ -1,6 +1,10 @@
 
-<div class="displayValue">{{displayValue}}</div>
+<app-calculator-output [displayedValue]="valueForOutput"></app-calculator-output>
 
 <div class="wrapper">
-    <div class="element" *ngFor = "let button of buttons"> {{button.operation}}</div>
+    <div class="element"
+     *ngFor = "let button of buttons; let last = last" 
+    [ngClass]="{'span-two-columns': last}"> {{button.operation}}</div>
 </div>
+ 
+<app-calculator-button></app-calculator-button> 

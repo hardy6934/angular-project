@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-calculator-button',
@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class CalculatorButtonComponent {
 
+  @Output() calculateChild = new EventEmitter<void>();
+ 
+  CalculateResult(){
+    this.calculateChild.emit();
+  }
+  
 }

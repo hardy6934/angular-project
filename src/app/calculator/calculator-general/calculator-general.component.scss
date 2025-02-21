@@ -9,10 +9,11 @@
         color: white;
         padding: 8px 10px;  
         border-radius: 10px;
+        cursor: pointer;
     }
 
-    .span-two-columns{
-        grid-column: span 3;
-    }
+    // .span-two-columns{
+    //     grid-column: span 2;
+    // }
 
 }  

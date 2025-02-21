@@ -1,5 +1,5 @@
 @use  "../../variables/variables.scss";
 
 .primary-button{
-    @extend .btn-primary;
+    @include variables.btn-primary;
 }

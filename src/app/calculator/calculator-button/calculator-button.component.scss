@@ -1,0 +1,17 @@
+@use  "../../../variables/variables.scss";
+
+.calculate{
+    text-align: right;
+    margin: 10px;
+    
+    .calculate-button{
+        background-color: var(--primary-color);
+        border: none;
+        color: white; 
+        padding: 8px 30px; 
+        cursor: pointer;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}

@@ -1,0 +1,11 @@
+
+<ng-container #container></ng-container>
+
+<ng-template #tpl let-name="name">
+    <p>Привет, {{ name }}</p>
+</ng-template>
+
+<h1>First Task - dynamicContainer</h1>
+<button (click) = "addTemplate('Алиса')">Добавить Алису</button>
+<button (click) = "addTemplate('Боб')">Добавить Боб</button>
+<button (click) = "clearTemplates()">Очистить</button>

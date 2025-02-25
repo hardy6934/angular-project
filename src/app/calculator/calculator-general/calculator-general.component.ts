@@ -30,19 +30,19 @@ export class CalculatorGeneralComponent implements OnInit, AfterViewInit {
   @ViewChildren(CalculatorButtonComponent, {read: ElementRef}) buttonComponents: QueryList<CalculatorButtonComponent>| undefined;
 
   ngOnInit(): void { 
-    console.log("ngOnChanges");
-    console.log(this.outputComponentStatic);
-    console.log(this.buttonComponent); 
-    console.log(this.buttonComponents);
-    console.log(this.dependencyInjectionElementRef); 
+    // console.log("ngOnChanges");
+    // console.log(this.outputComponentStatic);
+    // console.log(this.buttonComponent); 
+    // console.log(this.buttonComponents);
+    // console.log(this.dependencyInjectionElementRef); 
   }
 
   ngAfterViewInit(): void {
-    console.log("ngAfterViewInit"); 
-    console.log(this.outputComponentStatic); 
-    console.log(this.buttonComponent);
-    console.log(this.buttonComponents);
-    console.log(this.dependencyInjectionElementRef);
+    // console.log("ngAfterViewInit"); 
+    // console.log(this.outputComponentStatic); 
+    // console.log(this.buttonComponent);
+    // console.log(this.buttonComponents);
+    // console.log(this.dependencyInjectionElementRef);
   }
 
 

@@ -5,7 +5,7 @@
     <div class="element"
      *ngFor = "let button of buttons; let last = last" 
     [ngClass]="{'span-two-columns': last}" 
-    (click)="button.handleClick()"> {{button.displayValue}}</div>
+    (click)="onButtonClick(button)"> {{button.displayValue}}</div>
 </div>
  
 <app-calculator-button (calculateChild) ="receiveMessage()" ></app-calculator-button> 

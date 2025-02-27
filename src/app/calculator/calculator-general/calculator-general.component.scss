@@ -1,0 +1,19 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-gap: 10px;
+    margin: 10px;  
+
+    .element{
+        background-color: #39393c;
+        color: white;
+        padding: 8px 10px;  
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    // .span-two-columns{
+    //     grid-column: span 2;
+    // }
+
+}  

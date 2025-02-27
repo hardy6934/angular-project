@@ -1,0 +1,11 @@
+
+<app-calculator-output [displayedValue]="valueForOutput"></app-calculator-output>
+
+<div class="wrapper">
+    <div class="element"
+     *ngFor = "let button of buttons; let last = last" 
+    [ngClass]="{'span-two-columns': last}" 
+    (click)="onButtonClick(button)"> {{button.displayValue}}</div>
+</div>
+ 
+<app-calculator-button (calculateChild) ="receiveMessage()" ></app-calculator-button> 

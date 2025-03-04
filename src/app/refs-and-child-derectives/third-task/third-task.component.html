@@ -1,1 +1,5 @@
-<p>third-task works!</p>
+ <h2>Third task start</h2>
+ <p *appAdvancedIf="{ condition: isVisible, delay: 1000 }">Этот текст поя
+    вится с задержкой 1 секунда</p>
+    <button (click)="isVisible = !isVisible">Переключить</button>
+ <h2>Third task end</h2>

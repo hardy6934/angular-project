@@ -4,10 +4,11 @@ import { MoreInfoButtonComponent } from './more-info-button/more-info-button.com
 import { CalculatorGeneralComponent } from './calculator/calculator-general/calculator-general.component';
 import { DynamicContainerComponent } from './refs-and-child-derectives/first-task/dynamic-container/dynamic-container.component';
 import { ParentContainerComponent } from './refs-and-child-derectives/second-task/parent-container/parent-container.component';
+import { ThirdTaskComponent } from './refs-and-child-derectives/third-task/third-task.component';
 
 @Component({
   selector: 'app-root',
-  imports: [UserInfoComponent, MoreInfoButtonComponent, CalculatorGeneralComponent, DynamicContainerComponent, ParentContainerComponent],
+  imports: [UserInfoComponent, MoreInfoButtonComponent, CalculatorGeneralComponent, DynamicContainerComponent, ParentContainerComponent, ThirdTaskComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { DataExchangeService } from './data-exchange.service';
+import { UserService } from './user.service';
 
-describe('DataExchangeService', () => {
-  let service: DataExchangeService;
+describe('UserService', () => {
+  let service: UserService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(DataExchangeService);
+    service = TestBed.inject(UserService);
   });
 
   it('should be created', () => {

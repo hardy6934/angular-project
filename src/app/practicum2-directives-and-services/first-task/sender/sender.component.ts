@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { DataExchangeService } from '../../core/services/data-exchange.service';
+import { Component } from '@angular/core'; 
 import { FormsModule, NgModel } from '@angular/forms';
+import { DataExchangeService } from '../../../core/services/data-exchange/data-exchange.service';
 
 @Component({
   selector: 'app-sender',
